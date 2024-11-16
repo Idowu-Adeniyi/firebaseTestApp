@@ -32,7 +32,7 @@ onValue(messages, (snapshot) => {
   const ul = document.getElementById("messages");
   ul.replaceChildren();
 
-  // Loop through messeages and add them to the ul
+  // Loop through messages and add them to the ul
   snapshot.forEach((childSnapshot) => {
     // Fetch the data from the snapshot
     const childData = childSnapshot.val();
